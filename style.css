@@ -121,7 +121,7 @@ h2, .third__content h2 {
   height: 80vh
 }
 
-  .heading {
+  .second__content h2, .third__content h2 {
     text-align: left
   }
   .first__content p {
