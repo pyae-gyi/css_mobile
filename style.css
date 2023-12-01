@@ -116,6 +116,11 @@ h2, .third__content h2 {
   body {
     text-align: justify
   }
+  .first {
+  text-align: justify;
+  display: block
+}
+
   .first__content p {
     font-size: 1rem;
     letter-spacing: 0.425rem;
