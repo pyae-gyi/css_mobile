@@ -117,7 +117,7 @@ h2, .third__content h2 {
     text-align: justify
   }
   .first {
-  text-align: justify;
+  justify-content: flex-start;
   height: 80vh
 }
 
