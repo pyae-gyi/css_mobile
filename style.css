@@ -114,13 +114,16 @@ h2, .third__content h2 {
 
 @media (max-width: 350px) {
   body {
-    text-align: justify
+    text-align: left
   }
   .first {
-  justify-content: flex-start;
+  text-align: left;
   height: 80vh
 }
 
+  .heading {
+    text-align: left
+  }
   .first__content p {
     font-size: 1rem;
     letter-spacing: 0.425rem;
