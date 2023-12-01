@@ -118,7 +118,7 @@ h2, .third__content h2 {
   }
   .first {
   text-align: justify;
-  
+  height: 80vh
 }
 
   .first__content p {
