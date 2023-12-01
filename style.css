@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+
+h2, .third__content h2 {
+  margin-top: 0;
+}
+/* *****REUSEABLE**** */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.border {
+  border: 2px solid green;
+}
+
+.heading {
+  color: #824936;
+  font-family: 'Playfair Display', serif;
+}
+
+/* .half-screen-height {
+  height: 50vh;
+} */
+
+
+
+
+/* ************************* */
+
+
+.first {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3EED9;
+  height: 100vh
+}
+
+/* .first__content {
+  flex-basis: 65%;
+  text-align: center;
+} */
+.first__content p {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.625rem;
+}
+.first__content h1 {
+  font-size: 3.75rem;
+  margin-top: 0;
+}
+
+.second {
+  align-items: center;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.second__content h2, .third__content h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.flex__item {
+  flex-basis: 46.5%
+}
+
+.third__content, .second {
+  align-items: center;
+  padding: 3rem 0;
+}
+.third__content h2 {
+  color: #F3EED9;
+}
+.third__content p {
+  color: #fff;
+}
+.third__content--primary {
+  background-color: #222C2A;
+}
+
+.third__content--secondary {
+  background-color: #824936;
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 13px;
+  }
+  body {
+    line-height: 1.5;
+    
+  }
+
+  .flex {
+    display: block;
+  }
+  
+}
